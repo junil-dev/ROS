@@ -28,6 +28,8 @@ setup(
             'my_first_service_client = my_first_ros_pkg.my_first_service_client:main',
             'my_first_service_server = my_first_ros_pkg.my_first_service_server:main',
             'my_first_parameter = my_first_ros_pkg.my_first_parameter:main',
+            'my_first_action_client = my_first_ros_pkg.my_first_action_client:main',
+            'my_first_action_server = my_first_ros_pkg.my_first_action_server:main',
         ],
     },
 )
