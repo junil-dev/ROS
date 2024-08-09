@@ -1,4 +1,6 @@
 [console_scripts]
 my_first_publisher_node = my_first_ros_pkg.my_first_publisher_node:main
+my_first_service_client = my_first_ros_pkg.my_first_service_client:main
+my_first_service_server = my_first_ros_pkg.my_first_service_server:main
 my_first_subscriber_node = my_first_ros_pkg.my_first_subscriber_node:main
 
