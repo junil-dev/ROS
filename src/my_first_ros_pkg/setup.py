@@ -1,3 +1,5 @@
+import os
+from glob import glob
 from setuptools import find_packages, setup
 
 package_name = 'my_first_ros_pkg'
@@ -10,6 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name), glob('launch/*launch.[pxy][yma]*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -23,7 +26,8 @@ setup(
             'my_first_publisher_node = my_first_ros_pkg.my_first_publisher_node:main',
             'my_first_subscriber_node = my_first_ros_pkg.my_first_subscriber_node:main',
             'my_first_service_client = my_first_ros_pkg.my_first_service_client:main',
-            'my_first_service_server = my_first_ros_pkg.my_first_service_server:main'
+            'my_first_service_server = my_first_ros_pkg.my_first_service_server:main',
+            'my_first_parameter = my_first_ros_pkg.my_first_parameter:main',
         ],
     },
 )

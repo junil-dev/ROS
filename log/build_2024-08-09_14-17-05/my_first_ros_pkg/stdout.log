@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing my_first_ros_pkg.egg-info/PKG-INFO
+writing dependency_links to my_first_ros_pkg.egg-info/dependency_links.txt
+writing entry points to my_first_ros_pkg.egg-info/entry_points.txt
+writing requirements to my_first_ros_pkg.egg-info/requires.txt
+writing top-level names to my_first_ros_pkg.egg-info/top_level.txt
+reading manifest file 'my_first_ros_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_first_ros_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/python3.10/site-packages/my-first-ros-pkg.egg-link (link to .)
+Installing my_first_parameter script to /home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/my_first_ros_pkg
+Installing my_first_publisher_node script to /home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/my_first_ros_pkg
+Installing my_first_service_client script to /home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/my_first_ros_pkg
+Installing my_first_service_server script to /home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/my_first_ros_pkg
+Installing my_first_subscriber_node script to /home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/my_first_ros_pkg
+
+Installed /home/kimjunil/ros2_ws/build/my_first_ros_pkg
+running symlink_data
+symbolically linking /home/kimjunil/ros2_ws/build/my_first_ros_pkg/launch/python_parameter.launch.py -> /home/kimjunil/ros2_ws/install/my_first_ros_pkg/share/my_first_ros_pkg
