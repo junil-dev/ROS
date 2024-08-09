@@ -1,0 +1,4 @@
+[console_scripts]
+my_first_publisher_node = my_first_ros_pkg.my_first_publisher_node:main
+my_first_subscriber_node = my_first_ros_pkg.my_first_subscriber_node:main
+
