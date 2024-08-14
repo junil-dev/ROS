@@ -13,6 +13,7 @@ class FibonacciServer(Node):
             Fibonacci,
             'fibonacci',
             self.execute_callback)
+
     def execute_callback(self, goal_handle):
         self.get_logger().info('executing goal...')
         feedback_msg = Fibonacci.Feedback()
@@ -33,8 +34,11 @@ class FibonacciServer(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    fibonacci_action_server = FibonacciServer()
-    rclpy.spin(fibonacci_action_server)
+    node = FibonacciServer()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        node.destroy_node()
 
 if __name__ == '__main__':
     main()

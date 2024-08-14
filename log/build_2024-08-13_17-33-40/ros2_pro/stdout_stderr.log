@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing ros2_pro.egg-info/PKG-INFO
+writing dependency_links to ros2_pro.egg-info/dependency_links.txt
+writing entry points to ros2_pro.egg-info/entry_points.txt
+writing requirements to ros2_pro.egg-info/requires.txt
+writing top-level names to ros2_pro.egg-info/top_level.txt
+reading manifest file 'ros2_pro.egg-info/SOURCES.txt'
+writing manifest file 'ros2_pro.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kimjunil/ros2_ws/install/ros2_pro/lib/python3.10/site-packages/ros2-pro.egg-link (link to .)
+Installing action_client script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+Installing action_server script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+Installing bumper script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+Installing publisher script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+Installing service_client script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+Installing service_server script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+Installing subscriber script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+Installing turtle_move script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+
+Installed /home/kimjunil/ros2_ws/build/ros2_pro
+running symlink_data

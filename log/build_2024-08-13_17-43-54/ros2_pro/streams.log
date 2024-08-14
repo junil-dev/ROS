@@ -1,0 +1,24 @@
+[0.704s] Invoking command in '/home/kimjunil/ros2_ws/build/ros2_pro': PYTHONPATH=/home/kimjunil/ros2_ws/build/ros2_pro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimjunil/ros2_ws/install/ros2_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kimjunil/ros2_ws/build/ros2_pro/build --no-deps symlink_data
+[0.890s] running develop
+[0.998s] running egg_info
+[0.998s] writing ros2_pro.egg-info/PKG-INFO
+[0.999s] writing dependency_links to ros2_pro.egg-info/dependency_links.txt
+[0.999s] writing entry points to ros2_pro.egg-info/entry_points.txt
+[0.999s] writing requirements to ros2_pro.egg-info/requires.txt
+[0.999s] writing top-level names to ros2_pro.egg-info/top_level.txt
+[1.000s] reading manifest file 'ros2_pro.egg-info/SOURCES.txt'
+[1.000s] writing manifest file 'ros2_pro.egg-info/SOURCES.txt'
+[1.002s] running build_ext
+[1.002s] Creating /home/kimjunil/ros2_ws/install/ros2_pro/lib/python3.10/site-packages/ros2-pro.egg-link (link to .)
+[1.003s] Installing action_client script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+[1.003s] Installing action_server script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+[1.003s] Installing follow_wall script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+[1.003s] Installing publisher script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+[1.003s] Installing service_client script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+[1.003s] Installing service_server script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+[1.003s] Installing subscriber script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+[1.003s] Installing turtle_move script to /home/kimjunil/ros2_ws/install/ros2_pro/lib/ros2_pro
+[1.004s] 
+[1.004s] Installed /home/kimjunil/ros2_ws/build/ros2_pro
+[1.004s] running symlink_data
+[1.051s] Invoked command in '/home/kimjunil/ros2_ws/build/ros2_pro' returned '0': PYTHONPATH=/home/kimjunil/ros2_ws/build/ros2_pro/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimjunil/ros2_ws/install/ros2_pro/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kimjunil/ros2_ws/build/ros2_pro/build --no-deps symlink_data

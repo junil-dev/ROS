@@ -13,11 +13,8 @@ class FibonacciClient(Node):
     def send_goal(self, order):
         goal_msg = Fibonacci.Goal()
         goal_msg.order = order
-
         self._action_client.wait_for_server()
-
         self._send_goal_future = self._action_client.send_goal_async(goal_msg, feedback_callback=self.feedback_callback)
-
         self._send_goal_future.add_done_callback(self.goal_response_callback)
 
     def goal_response_callback(self, future):
@@ -27,7 +24,6 @@ class FibonacciClient(Node):
             return
 
         self.get_logger().info('Goal accepted :)')
-
         self._get_result_future = goal_handle.get_result_async()
         self._get_result_future.add_done_callback(self.get_result_callback)
 
@@ -43,13 +39,13 @@ class FibonacciClient(Node):
 
 def main(args=None):
     rclpy.init(args=args)
+    node = FibonacciClient()
 
-    action_client = FibonacciClient()
-
-    action_client.send_goal(10)
-
-    rclpy.spin(action_client)
-
+    try:
+        node.send_goal(10)
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        node.destroy_node()
 
 if __name__ == '__main__':
     main()

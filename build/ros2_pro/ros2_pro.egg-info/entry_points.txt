@@ -1,0 +1,10 @@
+[console_scripts]
+action_client = ros2_pro.action.action_client:main
+action_server = ros2_pro.action.action_server:main
+follow_wall = ros2_pro.turtlebot.follow_wall:main
+publisher = ros2_pro.pub_sub.publisher_node:main
+service_client = ros2_pro.service.service_client:main
+service_server = ros2_pro.service.service_server:main
+subscriber = ros2_pro.pub_sub.subscriber_node:main
+turtle_move = ros2_pro.turtlebot.move_turtlebot:main
+

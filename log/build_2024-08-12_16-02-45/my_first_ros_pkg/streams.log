@@ -1,0 +1,23 @@
+[0.627s] Invoking command in '/home/kimjunil/ros2_ws/build/my_first_ros_pkg': PYTHONPATH=/home/kimjunil/ros2_ws/build/my_first_ros_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kimjunil/ros2_ws/build/my_first_ros_pkg/build --no-deps symlink_data
+[0.801s] running develop
+[0.904s] running egg_info
+[0.905s] writing my_first_ros_pkg.egg-info/PKG-INFO
+[0.905s] writing dependency_links to my_first_ros_pkg.egg-info/dependency_links.txt
+[0.905s] writing entry points to my_first_ros_pkg.egg-info/entry_points.txt
+[0.905s] writing requirements to my_first_ros_pkg.egg-info/requires.txt
+[0.905s] writing top-level names to my_first_ros_pkg.egg-info/top_level.txt
+[0.906s] reading manifest file 'my_first_ros_pkg.egg-info/SOURCES.txt'
+[0.906s] writing manifest file 'my_first_ros_pkg.egg-info/SOURCES.txt'
+[0.907s] running build_ext
+[0.907s] Creating /home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/python3.10/site-packages/my-first-ros-pkg.egg-link (link to .)
+[0.908s] Installing my_first_action_client script to /home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/my_first_ros_pkg
+[0.908s] Installing my_first_action_server script to /home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/my_first_ros_pkg
+[0.908s] Installing my_first_parameter script to /home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/my_first_ros_pkg
+[0.908s] Installing my_first_publisher_node script to /home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/my_first_ros_pkg
+[0.908s] Installing my_first_service_client script to /home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/my_first_ros_pkg
+[0.908s] Installing my_first_service_server script to /home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/my_first_ros_pkg
+[0.908s] Installing my_first_subscriber_node script to /home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/my_first_ros_pkg
+[0.908s] 
+[0.908s] Installed /home/kimjunil/ros2_ws/build/my_first_ros_pkg
+[0.908s] running symlink_data
+[0.944s] Invoked command in '/home/kimjunil/ros2_ws/build/my_first_ros_pkg' returned '0': PYTHONPATH=/home/kimjunil/ros2_ws/build/my_first_ros_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimjunil/ros2_ws/install/my_first_ros_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/kimjunil/ros2_ws/build/my_first_ros_pkg/build --no-deps symlink_data
